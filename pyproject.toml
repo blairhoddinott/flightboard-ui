@@ -1,0 +1,11 @@
+[project]
+name = "flightboard-ui"
+version = "0.1.0"
+description = "The UI for the flightboard-api project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "nicegui>=2.22.1",
+    "pillow>=11.3.0",
+]

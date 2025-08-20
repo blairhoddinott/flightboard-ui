@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.13"
 
 [[package]]
@@ -167,6 +167,7 @@ dependencies = [
     { name = "httpx" },
     { name = "nicegui" },
     { name = "pillow" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -174,6 +175,7 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "nicegui", specifier = ">=2.22.1" },
     { name = "pillow", specifier = ">=11.3.0" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]

@@ -45,9 +45,9 @@ def get_sweep():
         if plane["emergency"]:
             draw.text((740, 68), "EMERGENCY", fill=(255, 0, 0), font=callsign_font)
 
-        ui.separator()
-        ui.image(strip)
-        ui.separator()
+        # ui.separator()
+        ui.image(strip).props("fit=scale-down").classes("w-1000 h-100 border-2 border-red-1002")
+        # ui.separator()
 
 
 def main():
